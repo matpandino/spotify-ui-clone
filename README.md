@@ -1,5 +1,7 @@
-## Electron + TypeScript + React
-Boilerplate for a project using Electron, React and Typescript
+## Spotify UI Clone
+Simple Spoitify UI Clone built using React + Typescript + Electron
+
+![spotify-clone](./.github/spotify-clone.jpg)
 
 ## Installation
 
