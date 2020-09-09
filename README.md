@@ -1,7 +1,7 @@
 ## Spotify UI Clone
 Simple Spoitify UI Clone built using React + Typescript + Electron.
 
-I also build [this template](https://www.figma.com/file/a2pddLAC6Nf3C3UZpxeQct/Spotify?node-id=0%3A1) on Figma if you are interested.
+I also built [this template](https://www.figma.com/file/a2pddLAC6Nf3C3UZpxeQct/Spotify?node-id=0%3A1) on Figma if you are interested.
 
 ![spotify-clone](./.github/spotify-clone.jpg)
 
