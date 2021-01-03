@@ -1,4 +1,5 @@
 const path = require('path')
+const nodeExternals = require('webpack-node-externals')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const rootPath = path.resolve(__dirname, '..')
@@ -11,6 +12,7 @@ module.exports = {
   entry: path.resolve(rootPath, 'src', 'App.tsx'),
   target: 'electron-renderer',
   devtool: 'source-map',
+  externals: [nodeExternals()],
   module: {
     rules: [
       {
@@ -23,6 +25,10 @@ module.exports = {
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
         use: 'file-loader'
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg|ico)$/i,
+        use: 'url-loader?limit=8192'
       }
     ]
   },

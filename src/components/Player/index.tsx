@@ -6,6 +6,8 @@ import { RiSkipBackFill, RiSkipForwardFill } from 'react-icons/ri'
 import { ImPause, ImPlay2 } from 'react-icons/im'
 import { FiRepeat, FiVolume1 } from 'react-icons/fi'
 
+import theWeekndImg from '../../../assets/the-weeknd.png'
+
 import {
   Container,
   SongArtistContainer,
@@ -48,10 +50,10 @@ const Player: React.FC = () => {
   return (
     <Container>
       <SongArtist
-        artist="The Weekend"
+        artist="The Weeknd"
         favorited={true}
         name="Blinding Lights"
-        imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBMMTm5ioFuXnDEj7gmuNJbN9CJd2w6lCOGA&usqp=CAU"
+        imageUrl={theWeekndImg}
       ></SongArtist>
       <MainPlayer>
         <PlayerButtons>

@@ -4,6 +4,9 @@ import { FiVolume1 } from 'react-icons/fi'
 
 import { Container, CategoryTitle, FriendContainer, FriendList } from './styles'
 
+import markImg from '../../../assets/mark.jpeg'
+import neymarImg from '../../../assets/neymar.jpeg'
+
 interface FriendProps {
   user: {
     name: string
@@ -50,8 +53,7 @@ const Friends: React.FC = () => {
         <Friend
           user={{
             name: 'Mark Zucc',
-            avatarUrl:
-              'https://scontent.ffln3-1.fna.fbcdn.net/v/t34.0-12/16176889_112685309244626_578204711_n.jpg?_nc_cat=108&_nc_sid=174925&_nc_ohc=L6gDlKXxEZYAX_O98U6&_nc_ht=scontent.ffln3-1.fna&oh=3a95abdaafd22fa842514bd411889fce&oe=5F59CE98'
+            avatarUrl: markImg
           }}
           song={{
             name: 'Human Music',
@@ -64,7 +66,7 @@ const Friends: React.FC = () => {
           user={{
             name: 'Neymar Jr.',
             avatarUrl:
-              'https://images.redetv.uol.com.br/public/esporte/redetviesportes/20200812163430I2VySPVDwP.jpeg'
+              neymarImg
           }}
           song={{
             name: 'Oh Juliana',
@@ -77,7 +79,7 @@ const Friends: React.FC = () => {
           user={{
             name: 'Neymar Jr.',
             avatarUrl:
-              'https://images.redetv.uol.com.br/public/esporte/redetviesportes/20200812163430I2VySPVDwP.jpeg'
+              neymarImg
           }}
           song={{
             name: 'Oh Juliana',
@@ -90,7 +92,7 @@ const Friends: React.FC = () => {
           user={{
             name: 'Neymar Jr.',
             avatarUrl:
-              'https://images.redetv.uol.com.br/public/esporte/redetviesportes/20200812163430I2VySPVDwP.jpeg'
+              neymarImg
           }}
           song={{
             name: 'Oh Juliana',
@@ -103,7 +105,7 @@ const Friends: React.FC = () => {
           user={{
             name: 'Neymar Jr.',
             avatarUrl:
-              'https://images.redetv.uol.com.br/public/esporte/redetviesportes/20200812163430I2VySPVDwP.jpeg'
+              neymarImg
           }}
           song={{
             name: 'Oh Juliana',
@@ -116,7 +118,7 @@ const Friends: React.FC = () => {
           user={{
             name: 'Neymar Jr.',
             avatarUrl:
-              'https://images.redetv.uol.com.br/public/esporte/redetviesportes/20200812163430I2VySPVDwP.jpeg'
+              neymarImg
           }}
           song={{
             name: 'Oh Juliana',
@@ -129,7 +131,7 @@ const Friends: React.FC = () => {
           user={{
             name: 'Neymar Jr.',
             avatarUrl:
-              'https://images.redetv.uol.com.br/public/esporte/redetviesportes/20200812163430I2VySPVDwP.jpeg'
+              neymarImg
           }}
           song={{
             name: 'Oh Juliana',
